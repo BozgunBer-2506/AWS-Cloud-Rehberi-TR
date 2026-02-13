@@ -39,8 +39,7 @@ Congratulations! You've reached the end of this AWS journey. If you're looking f
 
 ## 🇹🇷 Türkçe Versiyon: İçerik Özeti
 
-## 🚀 Canlı Önizleme
-Bu projenin canlı halini buradan inceleyebilirsiniz: [Live Demo](https://aws-cloud-rehberi-tr.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://aws-cloud-rehberi-tr.vercel.app/)
 
 1. **Bulut Kavramları:** Neden Bulut? Yüksek erişilebilirlik, küresel ölçek ve saniyeler içinde kaynak oluşturma çevikliği.
 2. **Küresel Altyapı:** AWS'in fiziksel dünyası. **Region** ve **Availability Zone** yapılarının felaket anında sistemi nasıl koruduğu.
