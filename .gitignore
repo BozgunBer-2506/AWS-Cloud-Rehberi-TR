@@ -24,3 +24,6 @@ out/
 .aws-sam/
 terraform.tfstate
 .terraform/
+
+# WIN
+*.Identifier
