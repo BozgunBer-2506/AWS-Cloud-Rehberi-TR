@@ -1,0 +1,26 @@
+# Dependency folders
+node_modules/
+jspm_packages/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+out/
+
+# AWS specific
+.aws-sam/
+terraform.tfstate
+.terraform/
