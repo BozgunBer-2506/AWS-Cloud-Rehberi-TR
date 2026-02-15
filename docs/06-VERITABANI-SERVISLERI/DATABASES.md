@@ -1,4 +1,4 @@
-# Bölüm 06: Database Services (Veritabanı Çözümleri)
+# Bölüm 06: Database Services (Veritabanı Servisleri)
 
 Veriyi saklamak (Storage) farklıdır, o veriyi yönetmek ve sorgulamak (Database) farklıdır. AWS'de kendi sunucunuza veritabanı kurmak yerine, yönetilen (**Managed**) servisleri kullanmak size zaman, güvenlik ve performans kazandırır.
 
@@ -14,9 +14,9 @@ Veriyi saklamak (Storage) farklıdır, o veriyi yönetmek ve sorgulamak (Databas
 
 ---
 
-### 2. Amazon Aurora (Bulutun Şampiyonu)
+### 2. Amazon Aurora (Cloud'un Şampiyonu)
 
-**Aurora**, AWS'in bulut mimarisi için özel olarak baştan tasarladığı veritabanı motorudur.
+**Aurora**, AWS'in Cloud mimarisi için özel olarak baştan tasarladığı veritabanı motorudur.
 
 * **Hız:** Standart MySQL'den 5 kat, PostgreSQL'den 3 kat daha hızlıdır.
 * **Dayanıklılık:** Verinizi 3 farklı **AZ**'de 6 kopya olarak saklar. Kendi kendine iyileşme (self-healing) özelliğine sahiptir.

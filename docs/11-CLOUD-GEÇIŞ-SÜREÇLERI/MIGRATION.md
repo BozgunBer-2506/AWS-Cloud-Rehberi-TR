@@ -18,7 +18,7 @@ Elinizde hali hazırda çalışan bir veri merkezi (On-premise) veya devasa veri
 
 ### 2. AWS Storage Gateway
 
-Kendi yerel merkezinizdeki sunucular ile AWS bulut depolama alanı (**S3**) arasında köprü kurar. Verileriniz yereldeymiş gibi görünür ama arka planda buluta yedeklenir.
+Kendi yerel merkezinizdeki sunucular ile AWS Cloud depolama alanı (**S3**) arasında köprü kurar. Verileriniz yereldeymiş gibi görünür ama arka planda clouda yedeklenir.
 
 ---
 
@@ -35,7 +35,7 @@ Veritabanlarını taşımak için kullanılır. En büyük özelliği: **Zero Do
 
 Taşınmaya başlamadan önce kullanılır:
 
-* **Evaluator:** "Benim bu sistemim buluta geçerse ne kadar tutar?" sorusuna cevap verir.
+* **Evaluator:** "Benim bu sistemim clouda geçerse ne kadar tutar?" sorusuna cevap verir.
 * **Discovery Service:** Yerel merkezinizdeki sunucuların birbirine nasıl bağlı olduğunu haritalandırır.
 
 ---
@@ -46,7 +46,7 @@ Taşınmaya başlamadan önce kullanılır:
 
 1. **Re-host (Lift and Shift):** Hiçbir şeyi değiştirmeden aynen taşı.
 2. **Re-platform:** Küçük optimizasyonlar yaparak taşı.
-3. **Re-factor:** Buluta tam uyumlu olması için kodu yeniden yaz.
+3. **Re-factor:** Clouda tam uyumlu olması için kodu yeniden yaz.
 4. **Repurchase:** Farklı bir ürüne geç (SaaS).
 5. **Retain:** Şimdilik dokunma, yerinde kalsın.
 6. **Retire:** Artık işe yaramıyor, kapat gitsin.

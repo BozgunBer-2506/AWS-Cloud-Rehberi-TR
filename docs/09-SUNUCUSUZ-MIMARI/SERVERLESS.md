@@ -1,4 +1,4 @@
-# Bölüm 09: Serverless (Sunucusuz) Mimari
+# Bölüm 09: Sunucusuz (Serverless) Mimari 
 
 **Serverless**, fiziksel veya sanal bir sunucunun (EC2 gibi) olmadığı anlamına gelmez. Sadece bu sunucuların yönetimi tamamen AWS'e aittir. Siz sadece kodunuzu yazarsınız, AWS o kodu çalıştırır ve iş bittiğinde her şeyi kapatır.
 

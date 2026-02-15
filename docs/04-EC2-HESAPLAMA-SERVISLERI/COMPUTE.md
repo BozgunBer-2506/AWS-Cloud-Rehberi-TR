@@ -113,12 +113,14 @@ AWS servis isimleri (Örn: **EC2**, **VPC**) büyük yazılsa da, sizin oluştur
 
 ---
 
-### Adım 4: Key Pair (Anahtar Çifti) Oluşturma
+### Adım 4: SSH Anahtarı (Key Pair) Oluşturma
 
 1. **Create new key pair** linkine tıklayın.
 2. İsim verin: `my-ssh-key` (Küçük harf ve İngilizce karakter).
 3. **Key pair type:** RSA, **File format:** .pem seçin.
 4. **Create** dediğinizde dosya bilgisayarınıza iner.
+
+⚠️ **ÖNEMLİ:** Bu `.pem` dosyasını **güvenli bir yerde saklayın!** Kaybolursa, sunucunuza hiçbir zaman bağlanamayacaksınız. AWS bu dosyayı tekrar vermez. Bir kopyasını başka bir yere de yedeklemeniz tavsiye edilir.
 
 ---
 

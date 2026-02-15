@@ -43,6 +43,11 @@ Hocanın istediği o kritik "Multi-Region" ve yedekleme stratejileri:
 * **Backup & Restore:** En ucuz yöntemdir. Verileri yedeklersiniz, felaket anında yeni sistem kurup yedekleri yüklersiniz.
 * **Multi-Region (Active-Active):** Uygulamanız aynı anda iki farklı ülkede (örn: Frankfurt ve İrlanda) çalışır. Biri tamamen kapansa bile kullanıcılar hiçbir şey fark etmez.
 
+* **RTO (Recovery Time Objective):** Bir felaket anında sistemin ne kadar sürede ayağa kalkması gerekiyor? (Zaman hedefi).
+* **RPO (Recovery Point Objective):** En fazla ne kadarlık veri kaybını (saat/dakika) göze alabiliriz? (Veri hedefi).
+* **Backup & Restore:** En ucuz yöntemdir. Verileri yedeklersiniz, felaket anında yeni sistem kurup yedekleri yüklersiniz.
+* **Multi-Region (Active-Active):** Uygulamanız aynı anda iki farklı ülkede (örn: Frankfurt ve İrlanda) çalışır. Biri tamamen kapansa bile kullanıcılar hiçbir şey fark etmez.
+
 ---
 
 ### 5. Örnek CI/CD Yapılandırması (CodeBuild - buildspec.yml)

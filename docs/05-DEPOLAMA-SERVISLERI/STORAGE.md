@@ -9,7 +9,7 @@ Veriyi sadece üretmek yetmez, onu doğru yerde, doğru maliyetle ve güvenle sa
 S3, Cloud dünyasının dipsiz kuyusu gibidir. Dosyalarınızı (resim, video, yedekleme dosyaları) **Bucket** (Kova) adı verilen klasör benzeri yapılarda saklarsınız.
 
 * **Sınırsız Kapasite:** Bir dosya boyutu 5 TB olabilir, ancak toplamda saklayabileceğiniz veri miktarının sınırı yoktur.
-* **Durability (Dayanıklılık):** AWS, S3 için **%99.999999999** (11 adet 9) dayanıklılık sözü verir. Bu, bir dosyanızı kaybetme ihtimalinizin neredeyse imkansız olduğu anlamına gelir.
+* **Durability (Dayanıklılık):** AWS, S3 için **%99.999999999** dayanıklılık sözü verir. Bu, bir dosyanızı kaybetme ihtimalinizin neredeyse imkansız olduğu anlamına gelir.
 * **Global Erişim:** Her dosyanın (eğer izin verirseniz) kendine ait bir URL adresi olur.
 
 

@@ -1,6 +1,6 @@
 # Bölüm 12: Security, Identity & Compliance
 
-AWS dünyasında güvenlik "0. gün" meselesidir. Her şeyden önce gelir. AWS'in paylaşımlı sorumluluk modeline göre, bulutun güvenliği AWS'e, bulutun içindeki verinin güvenliği size aittir.
+AWS dünyasında güvenlik "0. gün" meselesidir. Her şeyden önce gelir. AWS'in paylaşımlı sorumluluk modeline göre, cloudun güvenliği AWS'e, cloudun içindeki verinin güvenliği size aittir.
 
 **Day 0 (Zero-Day)** Ne Demek?
 Yazılım dünyasında bir projenin ömrünü günlere ayırırlar:

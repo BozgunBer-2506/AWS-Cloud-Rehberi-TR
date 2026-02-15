@@ -6,14 +6,14 @@ Sistemimizi kurduk, ölçeklendirdik ve veritabanına bağladık. Şimdi sıra k
 
 ### 1. Amazon Route 53 - Akıllı DNS Servisi
 
-**Route 53**, sadece bir alan adı (Domain) tescil servisi değildir; trafiği dünya genelinde yöneten çok güçlü bir DNS servisidir.
+**Route 53**, sadece bir alan adı (Domain) tescil servisi değildir. Trafiği dünya genelinde yöneten çok güçlü bir DNS servisidir.
 
 * **Sağlık Kontrolü (Health Checks):** Eğer bir bölgedeki (Region) sisteminiz çökerse, **Route 53** bunu anlar ve trafiği otomatik olarak çalışan diğer bölgeye yönlendirir.
-* **Yönlendirme Politikaları (Routing Policies):**
-* **Simple Routing:** Tek bir kaynağa yönlendirir.
-* **Latency-based Routing:** Kullanıcıya en düşük gecikme (en hızlı yanıt) süresini sunan bölgeye yönlendirir.
-* **Geolocation Routing:** Kullanıcının bulunduğu ülkeye göre farklı içerik sunar (Örn: Türkiye'den girene Türkçe sayfa).
-* **Failover Routing:** Ana sistem çöktüğünde yedek sisteme geçiş yapar.
+* **Yönlendirme Politikaları (Routing Policies)** - Trafiği nasıl yönlendireceğini kontrol etmek için şu seçenekler vardır:
+  * **Simple Routing:** Tek bir kaynağa yönlendirir.
+  * **Latency-based Routing:** Kullanıcıya en düşük gecikmeyi sunan bölgeye yönlendirir.
+  * **Geolocation Routing:** Kullanıcının bulunduğu ülkeye göre farklı içerik sunar (Örneğin: Türkiye'den girene Türkçe sayfa).
+  * **Failover Routing:** Ana sistem çöktüğünde yedek sisteme geçiş yapar.
 
 
 

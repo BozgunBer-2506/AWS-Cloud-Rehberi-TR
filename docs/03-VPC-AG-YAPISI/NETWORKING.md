@@ -58,8 +58,7 @@ Bir öğrenciye şu standart yapıyı öğretmeliyiz:
 1. Bir VPC oluştur.
 2. 2 farklı AZ'de **Public Subnet** aç (Yüksek erişilebilirlik için).
 3. Web sunucularını buraya koy ve **Internet Gateway**'e bağla.
-4. 2 farklı AZ'de **Private Subnet** aç.
-5. Veritabanlarını buraya sakla. Kimse internetten onlara doğrudan ulaşamasın.
+4. Veritabanlarını buraya sakla. Kimse internetten onlara doğrudan ulaşamasın.
 
 ---
 

@@ -58,7 +58,7 @@ Diyelim ki `test-app-01` isimli bir uygulamanız var ve 7/24 çalışması gerek
 <summary>SORU: AWS servislerini denemek istiyorum ama fatura gelmesinden korkuyorum. Ne yapmalıyım?</summary>
 <div class="answer-content">
 
-Öncelikle her zaman **Free Tier Eligible** yazan kaynakları seçin. İkinci olarak mutlaka bir **AWS Budget** oluşturup 1 dolar gibi küçük bir tutara alarm kurun. Son olarak, işiniz biten kaynakları (EC2, RDS vb.) mutlaka **Terminate** edin veya silin.
+Öncelikle her zaman **Free Tier Eligible** yazan kaynakları seçin. İkinci olarak mutlaka bir **AWS Budget** oluşturup 10 dolar gibi makul bir tutara alarm kurun. Son olarak, işiniz biten kaynakları (EC2, RDS vb.) mutlaka **Terminate** edin veya silin.
 
 </div>
 </details>
