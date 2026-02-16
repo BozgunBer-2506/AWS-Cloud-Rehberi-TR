@@ -121,7 +121,7 @@ function App() {
           <div className="hidden lg:flex flex-col items-center mb-8 cursor-pointer" onClick={() => handlePageChange(null)}>
             <img src="/aws-logo.png" alt="AWS" className="w-16 h-16 mb-4" />
             <h1 className="text-2xl font-extrabold uppercase">AWS CLOUD</h1>
-            <span className="text-xs text-[#FF9900] font-semibold mt-2 uppercase">TÜRKÇE REHBER</span>
+            <span className="text-xs text-[#FF9900] font-semibold mt-2 uppercase">EGITIM REHBERI</span>
             <span className="text-xs text-slate-400 mt-4 border-t border-slate-700 pt-3">Yavuz Barış Özgün</span>
           </div>
 
@@ -217,7 +217,7 @@ function App() {
           <div className="flex flex-col items-center justify-center h-full text-center px-6">
             <img src="/aws-logo.png" alt="AWS" className="w-40 h-40 mb-8" />
             <h2 className="text-5xl font-extrabold mb-4">Amazon Web Services</h2>
-            <h3 className="text-2xl text-[#FF9900] font-bold mb-8">Türkçe Rehberi</h3>
+            <h3 className="text-2xl text-[#FF9900] font-bold mb-8">Eğitim Rehberi</h3>
             <p className="text-lg text-slate-300">Menüden bir bölüm seçin</p>
           </div>
         )}
