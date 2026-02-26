@@ -30,8 +30,8 @@
 
 Congratulations! You've reached the end of this AWS journey. If you're looking for more resources, need help with your AWS projects, or want to discuss cloud architecture, feel free to reach out.
 
-* **Useful Links:** [AWS Documentation](https://docs.aws.amazon.com/) | [AWS Free Tier](https://aws.amazon.com/free/) | [AWS Training](https://explore.skillbuilder.aws/)
-* **Support:** Reach me via my **GitHub profile** or **LinkedIn**.
+- **Useful Links:** [AWS Documentation](https://docs.aws.amazon.com/) | [AWS Free Tier](https://aws.amazon.com/free/) | [AWS Training](https://explore.skillbuilder.aws/)
+- **Support:** Reach me via my **GitHub profile** or **LinkedIn**.
 
 ---
 
@@ -61,9 +61,15 @@ Congratulations! You've reached the end of this AWS journey. If you're looking f
 
 Tebrikler! Bu AWS yolculuğunun sonuna geldiniz. Daha fazla kaynak arıyorsanız, AWS projelerinizde yardıma ihtiyacınız varsa veya bulut mimarileri üzerine sohbet etmek isterseniz bana ulaşmaktan çekinmeyin.
 
-* **Faydalı Linkler:** [AWS Dokümantasyonu](https://docs.aws.amazon.com/) | [AWS Ücretsiz Katman](https://aws.amazon.com/free/) | [AWS Skill Builder](https://explore.skillbuilder.aws/)
-* **Destek:** **GitHub profilim** veya **LinkedIn** üzerinden bana yazabilirsiniz.
+- **Faydalı Linkler:** [AWS Dokümantasyonu](https://docs.aws.amazon.com/) | [AWS Ücretsiz Katman](https://aws.amazon.com/free/) | [AWS Skill Builder](https://explore.skillbuilder.aws/)
+- **Destek:** **GitHub profilim** veya **LinkedIn** üzerinden bana yazabilirsiniz.
 
 ---
 
-**Crafted by Yavuz Barış Özgün - 2026**
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+**Crafted by The_Bozgun - 2026**
