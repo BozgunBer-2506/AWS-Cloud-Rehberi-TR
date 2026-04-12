@@ -295,5 +295,22 @@ aws configure list
 
 Tüm AWS CLI komutlarının tam listesi ve parametreleri için:
 
-- [AWS CLI Komut Referansı](https://docs.aws.amazon.com/cli/latest/) – Tüm servisler ve komutlar
-- [boto3 Dokümantasyonu](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) – Python SDK referansı
+<div style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
+
+<a href="https://docs.aws.amazon.com/cli/latest/" target="_blank" style="display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: #1e293b; border: 1px solid #f97316; border-radius: 8px; text-decoration: none; color: #f8fafc;">
+  <span style="font-size: 1.4rem;">📄</span>
+  <div>
+    <div style="font-weight: bold; color: #f97316;">AWS CLI Komut Referansı</div>
+    <div style="font-size: 0.85rem; color: #94a3b8;">Tüm servisler, komutlar ve parametreler – docs.aws.amazon.com</div>
+  </div>
+</a>
+
+<a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html" target="_blank" style="display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: #1e293b; border: 1px solid #3b82f6; border-radius: 8px; text-decoration: none; color: #f8fafc;">
+  <span style="font-size: 1.4rem;">🐍</span>
+  <div>
+    <div style="font-weight: bold; color: #3b82f6;">boto3 Dokümantasyonu</div>
+    <div style="font-size: 0.85rem; color: #94a3b8;">Python AWS SDK referansı – boto3.amazonaws.com</div>
+  </div>
+</a>
+
+</div>
