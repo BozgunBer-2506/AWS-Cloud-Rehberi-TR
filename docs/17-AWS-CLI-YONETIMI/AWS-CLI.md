@@ -1,4 +1,4 @@
-# Bölüm 17: AWS CLI ile Bulut Yönetimi
+# Bölüm 17: AWS CLI ile Cloud Yönetimi
 
 **AWS CLI (Command Line Interface)**, AWS kaynaklarını terminal üzerinden yönetmenizi sağlayan resmi araçtır. AWS Console'da fare ile yaptığınız her işlemi tek bir komutla yapabilir, scriptlere gömebilir ve pipeline'lara entegre edebilirsiniz. Gerçek bir Cloud Engineer'ın en çok kullandığı araçlardan biridir.
 
