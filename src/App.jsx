@@ -139,6 +139,8 @@ function App() {
 
           <div className="mt-6 pt-4 border-t border-slate-700 text-center text-[10px] text-slate-500">
             © 2026 <a href="https://github.com/BozgunBer-2506" target="_blank" rel="noopener noreferrer" className="text-[#FF9900]">The_Bozgun</a>
+            <br />
+            <a href="https://thebozgun.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#FF9900] transition-colors mt-1 inline-block">thebozgun.com</a>
           </div>
         </div>
       </aside>
