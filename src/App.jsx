@@ -91,12 +91,6 @@ function App() {
 
   return (
     <div className="flex flex-col lg:flex-row h-screen w-screen bg-[#0f172a] text-white font-sans overflow-hidden">
-      <style>{`
-        .goog-logo-link, .goog-te-gadget span, .goog-te-banner-frame { display: none !important; }
-        .goog-te-gadget { color: transparent !important; font-size: 0 !important; }
-        .goog-te-combo { background-color: rgba(30,41,59,0.7) !important; color: #FF9900 !important; border: 1px solid rgba(255,153,0,0.3) !important; border-radius: 8px !important; padding: 4px 10px !important; font-size: 12px !important; outline: none !important; }
-        body { top: 0px !important; position: static !important; }
-      `}</style>
 
       <header className="lg:hidden bg-[#1e293b] border-b border-slate-700 z-50">
         <div className="px-4 py-3 flex justify-between items-center">
@@ -145,7 +139,6 @@ function App() {
 
           <div className="mt-6 pt-4 border-t border-slate-700 text-center text-[10px] text-slate-500">
             © 2026 <a href="https://github.com/BozgunBer-2506" target="_blank" rel="noopener noreferrer" className="text-[#FF9900]">The_Bozgun</a>
-            <div id="google_translate_element" className="mt-3" />
           </div>
         </div>
       </aside>
@@ -173,13 +166,13 @@ function App() {
                   code({ inline, className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || '');
                     return !inline && match ? (
-                      <div translate="no" className="notranslate rounded-lg overflow-hidden border border-slate-800 my-6">
+                      <div className="rounded-lg overflow-hidden border border-slate-800 my-6">
                         <SyntaxHighlighter style={atomDark} language={match[1]} PreTag="div" customStyle={{ margin: 0, padding: '20px', background: '#0d1117' }} {...props}>
                           {String(children).replace(/\n$/, '')}
                         </SyntaxHighlighter>
                       </div>
                     ) : (
-                      <code translate="no" className="notranslate bg-slate-800 text-[#FF9900] px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>
+                      <code className="bg-slate-800 text-[#FF9900] px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>
                     );
                   },
                   details: ({ children }) => <details className="bg-[#1e293b]/50 border border-slate-700 rounded-lg mb-6 overflow-hidden">{children}</details>,
