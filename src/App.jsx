@@ -139,6 +139,7 @@ function App() {
 
           <div className="mt-6 pt-4 border-t border-slate-700 text-center text-[10px] text-slate-500">
             © 2026 <a href="https://github.com/BozgunBer-2506" target="_blank" rel="noopener noreferrer" className="text-[#FF9900]">The_Bozgun</a>
+            <div id="google_translate_element" className="mt-3" />
           </div>
         </div>
       </aside>
@@ -166,13 +167,13 @@ function App() {
                   code({ inline, className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || '');
                     return !inline && match ? (
-                      <div className="rounded-lg overflow-hidden border border-slate-800 my-6">
+                      <div translate="no" className="notranslate rounded-lg overflow-hidden border border-slate-800 my-6">
                         <SyntaxHighlighter style={atomDark} language={match[1]} PreTag="div" customStyle={{ margin: 0, padding: '20px', background: '#0d1117' }} {...props}>
                           {String(children).replace(/\n$/, '')}
                         </SyntaxHighlighter>
                       </div>
                     ) : (
-                      <code className="bg-slate-800 text-[#FF9900] px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>
+                      <code translate="no" className="notranslate bg-slate-800 text-[#FF9900] px-1.5 py-0.5 rounded text-sm font-mono">{children}</code>
                     );
                   },
                   details: ({ children }) => <details className="bg-[#1e293b]/50 border border-slate-700 rounded-lg mb-6 overflow-hidden">{children}</details>,
