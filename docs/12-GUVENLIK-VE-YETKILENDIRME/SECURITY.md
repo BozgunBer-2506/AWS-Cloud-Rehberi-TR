@@ -57,7 +57,7 @@ Bir kullanıcının sadece `deneme-bucket` isimli klasörü listelemesine izin v
 
 ```json
 {
-    "Version": "2026-02-13",
+    "Version": "2012-10-17",
     "Statement": [
         {
             "Effect": "Allow",
@@ -68,6 +68,8 @@ Bir kullanıcının sadece `deneme-bucket` isimli klasörü listelemesine izin v
 }
 
 ```
+
+> **Not:** `Version` alanı "bu policy'yi yazdığım tarih" değil, **IAM policy dil (grammar) sürümüdür**. Geçerli değerler yalnızca `"2012-10-17"` (kullanılması gereken, değişken desteği var) ve `"2008-10-17"` (eski). Başka bir değer yazılırsa AWS, `MalformedPolicyDocument` hatası fırlatır ve policy hiç oluşturulmaz.
 
 ---
 

@@ -8,7 +8,9 @@ Sistem canlıya geçtikten sonra en önemli şey görünürlüktür. Bu bölümd
 
 **CloudWatch**, AWS kaynaklarınızın "sağlık durumunu" izler.
 
-* **Metrics:** CPU, RAM (ajan ile), Disk ve Network verilerini sayısal olarak tutar.
+* **Metrics:** Kaynak performansını sayısal olarak tutar. EC2'den **hypervisor seviyesinde otomatik gelen** metrikler şunlardır: CPU kullanımı, Network I/O, Disk I/O (EBS) ve Status Check.
+
+  > ⚠️ **RAM ve disk doluluk oranı otomatik gelmez.** Bunlar işletim sistemi içinden okunması gereken bilgilerdir; hypervisor dışarıdan göremez. Bu metrikleri almak için EC2 instance'ına **CloudWatch Agent** kurulması ve instance IAM role'üne `CloudWatchAgentServerPolicy` policy'sinin eklenmesi zorunludur. "Neden RAM grafiğim boş?" sorusunun cevabı budur.
 * **Alarms:** Belirlediğiniz eşik değerleri aşılınca tetiklenir (Örn: CPU > %80 ise haber ver).
 * **Dashboards:** Tüm metrikleri tek bir ekranda görselleştirir.
 

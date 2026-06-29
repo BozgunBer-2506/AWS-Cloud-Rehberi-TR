@@ -37,14 +37,29 @@ aws s3 ls --profile prod
 * Her zaman IAM Role kullan
 * Least Privilege prensibini uygula
 
-Örnek policy:
+Örnek policy — S3 IAM'inde en sık yapılan hata **resource ARN'ını action seviyesine doğru eşlememektir**:
+
 ```json
 {
-  "Effect": "Allow",
-  "Action": "s3:ListBucket",
-  "Resource": "*"
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::my-bucket"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::my-bucket/*"
+    }
+  ]
 }
 ```
+
+> `s3:ListBucket` bucket-level bir işlemdir → resource `arn:aws:s3:::bucket-adi` (sonunda `/*` olmadan).  
+> `s3:GetObject` object-level bir işlemdir → resource `arn:aws:s3:::bucket-adi/*` (sonunda `/*` ile).  
+> Bu ikisi birbirine karıştırılırsa izinler çalışmaz. `Resource: "*"` her ikisi için de least privilege prensibini ihlal eder.
 
 ---
 
